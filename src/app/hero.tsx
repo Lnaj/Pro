@@ -8,14 +8,14 @@ function Hero() {
       <div className="grid place-items-center min-h-[92vh] px-8">
         <div className="container mx-auto grid place-items-center h-max text-center">
           <Typography variant="h1" color="white">
-            Professional Technology Consultant Specializing in IA and Blockchain
+            Professional Technology Consultant Specialized in IA and Blockchain
           </Typography>
           <Typography
             variant="lead"
             color="white"
             className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl"
           >
-            Welcome to my professional resume page, i'll keep this page updated ! Below, you&apos;ll find a
+            Welcome to my professional resume page, i&apos;ll keep this page updated ! Below, you&apos;ll find a
             comprehensive overview of my skills, qualifications, and experiences.
 
             Feel free to react out by using the connect button!

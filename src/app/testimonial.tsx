@@ -36,7 +36,7 @@ export function Testimonial() {
                 Technology Consultant and AI Specialist
               </Typography>
               <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
-                With a Master's degree in Economics, extensive experience as an
+                With a Master&apos;s degree in Economics, extensive experience as an
                 actuary at AXA, and a background as a consultant in IT security, I am
                 actively pursuing opportunities in information technology consultancy.
 
