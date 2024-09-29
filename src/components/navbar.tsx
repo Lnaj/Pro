@@ -8,20 +8,25 @@ import {
 } from "@material-tailwind/react";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
-const NAV_MENU = ["Home", "About me", "Education and Experience"];
+// Updated NAV_MENU with label and href
+const NAV_MENU = [
+  { label: "Home", href: "#home" },
+  { label: "About me", href: "#test" },
+  { label: "Education and Experiences", href: "#edu"},
+  { label: "Skills and Languages", href: "#sk"},
+];
 
-function NavItem({ children }: { children: React.ReactNode }) {
+function NavItem({ href, children }: { href: string, children: React.ReactNode }) {
   return (
-    
     <li>
       <Typography
         as="a"
-        href="#"
+        href={href}  // Use the href prop
         variant="paragraph"
         color="black"
         className="flex items-center gap-2 font-medium text-gray-900"
       >
-        {children}
+        {children}  
       </Typography>
     </li>
   );
@@ -42,37 +47,33 @@ export function Navbar() {
   }, []);
 
   return (
-    
-    <MTNavbar
-      fullWidth
-      blurred={false}
-      shadow={false}
-      color="white"
-      className="sticky top-0 z-50 border-0"
-      
-    >
-      
-      <div className="container mx-auto flex items-center justify-between">
+    <MTNavbar fullWidth blurred={false} shadow={false} color="white" className="sticky top-0 z-50 border-0">
+      <div  className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
-          href="http://localhost:3000/"
+          href="#"
           target="_blank"
           color="blue-gray"
           className="text-lg font-bold"
         >
-          CV 
+          Welcome ! 
         </Typography>
+
+        {/* Desktop Nav Menu */}
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map((nav) => (
-            <NavItem key={nav}>{nav}</NavItem>
+            <NavItem key={nav.label} href={nav.href}>
+              {nav.label}  {/* Pass label as children */}
+            </NavItem>
           ))}
         </ul>
-        <div className="hidden items-center gap-2 lg:flex">
-        
-          <a href="http://localhost:3000/#" target="_blank">
+
+        <div id="nav" className="hidden items-center gap-2 lg:flex">
+          <a href="https://www.linkedin.com/in/naj-dbi/" target="_blank">
             <Button color="gray">Connect</Button>
           </a>
         </div>
+
         <IconButton
           variant="text"
           color="gray"
@@ -86,15 +87,18 @@ export function Navbar() {
           )}
         </IconButton>
       </div>
+
+      {/* Mobile Nav Menu */}
       <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
           <ul className="flex flex-col gap-4">
             {NAV_MENU.map((nav) => (
-              <NavItem key={nav}>{nav}</NavItem>
+              <NavItem key={nav.label} href={nav.href}>
+                {nav.label}  {/* Pass label as children */}
+              </NavItem>
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            
             <a href="https://www.linkedin.com/in/naj-dbi/" target="_blank">
               <Button color="gray">Connect</Button>
             </a>

@@ -1,9 +1,11 @@
-"use client";
-
 import React from "react";
 import { ThemeProvider } from "@material-tailwind/react";
 
-export function Layout({ children }: { children: React.ReactNode }) {
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+export function Layout({ children }: LayoutProps) {
   return <ThemeProvider>{children}</ThemeProvider>;
 }
 

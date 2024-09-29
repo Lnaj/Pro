@@ -4,19 +4,19 @@ import { Button } from "@material-tailwind/react";
 
 export function FixedPlugin() {
   return (
-    <a href="#" target="_blank">
+    <a href="https://oncyber.io/spaces/kYwOLK1UUaWNsV4kXf2o" target="_blank">
       <Button
         color="white"
         size="sm"
         className="!fixed bottom-4 right-4 flex gap-1 pl-2 items-center border border-blue-gray-50"
       >
         <Image
-          width={128}
-          height={128}
+          width={256}
+          height={256}
           className="w-5 h-5"
           alt="Material Tailwind"
           src="https://www.material-tailwind.com/favicon.png"
-        />{" "}
+        />{"Metaverse "}
         
       </Button>
     </a>
