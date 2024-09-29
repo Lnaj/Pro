@@ -5,7 +5,7 @@ import { Button } from "@material-tailwind/react";
 export function FixedPlugin() {
   return (
     <a
-      href="https://oncyber.io/spaces/kYwOLK1UUaWNsV4kXf2o"
+      href="google.com"
       target="_blank"
       rel="noopener noreferrer"
     >
