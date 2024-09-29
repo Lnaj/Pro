@@ -1,9 +1,11 @@
+/* eslint-disable react/no-children-prop */
 "use client";
 import { Typography } from "@material-tailwind/react";
 import {
   AcademicCapIcon,
   BriefcaseIcon,
   FireIcon,
+  LanguageIcon,
 } from "@heroicons/react/24/solid";
 
 import InfoCard from "@/components/info-card";
@@ -18,17 +20,17 @@ const EDUCATION = [
   },
   {
     icon: AcademicCapIcon,
-    title: "Ethereum developer Certification - LearnWeb3.io",
+    title: "Ethereum Developer Certification - LearnWeb3.io",
     date: "2024",
     children:
-      "Relevant Coursework: Solidity, Web3.js, React.js, Dao, NFT and Tokens development,Project Management in Cryptocurrency",
+      "Relevant Coursework: Solidity, Forge, React.js, DAO, Metaverse, NFT and Tokens development, Wallet creation, Project Management in Cryptocurrency",
   },
   {
     icon: AcademicCapIcon,
-    title: "AI developer Certification - LearnWeb3.io",
+    title: "AI Developer Certification - LearnWeb3.io",
     date: "2024",
     children:
-      "Relevant Coursework: Introduction to LLm, Next.js, React.js, Api , DTER Model",
+      "Relevant Coursework: Introduction to LLm, Gen AI , Next.js, LM Studio, LeonardoAi, React.js, Api , DTER Model",
       
   },
   {
@@ -36,24 +38,31 @@ const EDUCATION = [
     title: "Master Degree of Economics - Solvay Brussels School of Economics and Management",
     date: "2020-2023",
     children:
-      "Relevant Coursework: Advanced Statistics, Corporate Finances, Derivatives, Data management and Machine learning , Regulation.",
+      "Relevant Coursework: Advanced Statistics, Game Theory, Financial Econometrics, Corporate Finance, Derivatives, Data management and Machine learning , Regulation.",
   },
   {
     icon: AcademicCapIcon,
     title: "Bachelor degree of Economics - Solvay Brussels School of Economics and Management",
     date: "2017-2020",
     children:
-      "Relevant Coursework: Statistics, Economics, Mathematics, Computer Sciences , Law.",
+      "Relevant Coursework: Statistics, Finance , Economics, Mathematics, Computer Sciences , Law.",
   },
 ];
 
 const EXPERIENCE = [
   {
     icon: BriefcaseIcon,
+    title: "AI Analyst - Freelance",
+    date: "2024-ongoing",
+    children:
+      "Leveraging a technical training in AI requirements and ethics, i help train AI models on specific topics and regions.",
+  },
+  {
+    icon: BriefcaseIcon,
     title: "Junior Web Developer - Freelance",
     date: "2023-2024",
     children:
-      "Following an intensive training in Next.js, I developed a variety of applications showcased on my portfolio website.",
+      "Following an intensive training in Next.js, i developed a variety of applications such as this website.",
   },
   {
     icon: BriefcaseIcon,
@@ -78,6 +87,13 @@ const EXPERIENCE = [
   },
   {
     icon: BriefcaseIcon,
+    title: "Private Teaching - ULB, Ephec, UCL",
+    date: "2017 - 2024",
+    children:
+      "I help students from Bachelor and Master degree to solve issues regarding topics such as Mathematics, Statistics, Computer Science, Econometrics. ",
+  },
+  {
+    icon: BriefcaseIcon,
     title: "Founder and CEO - Mugen Rig farm",
     date: "2017 - 2021",
     children:
@@ -92,18 +108,18 @@ const SKILLS = [
     title: "Next.Js Frameworks",
     date: "Technical Skills",
     children:
-      "Competent in working with front-end and back-end frameworks such as Next js, to develop dynamic and responsive web applications with a focus on user experience.",
+      "Competent in working with front-end and back-end frameworks such as Next.js, to develop dynamic and responsive web applications with a focus on user experience.",
   },
   {
     icon: FireIcon,
-    title: "AI Foundation",
+    title: "AI Foundations",
     date: "Technical Skills",
     children:
-      "Competent in working with AI in prompt design and AI solutions such as LLMs",
+      "Competent in working with AI in prompt design and AI solutions such as LLM's and Gen AI",
   },
   {
     icon: FireIcon,
-    title: "Detail oriented",
+    title: "Details-Oriented",
     date: "Soft Skills",
     children:
       "Meticulous attention to detail in code quality, user interface design, and testing to ensure error-free and user-friendly web applications.",
@@ -117,10 +133,10 @@ const SKILLS = [
   },
   {
     icon: FireIcon,
-    title: "Erp-Crm ",
+    title: "ERP-CRM ",
     date: "Technical Skills",
     children:
-      "Proficient in the management and implementation of entreprise business softwares.",
+      "Proficient in the management and implementation of entreprise ressource planning softwares.",
   },
   {
     icon: FireIcon,
@@ -135,23 +151,64 @@ const SKILLS = [
     date: "Soft Skills",
     children:
       "Collaborative team player known for fostering positive relationships, contributing valuable insights, and driving collective success through effective communication and cooperation.",
+  }, 
+   {
+    icon: FireIcon,
+    title: "Teaching",
+    date: "Soft Skills",
+    children:
+      " This skill includes dispositions, emotional intelligence, classroom management, communication, content knowledge, and knowledge of curriculum and standards.",
   },
 ];
 
+
+const Languages = [
+  {
+    icon: LanguageIcon,
+    title: "French",
+    date: "Native",
+    children:
+      "C2",
+  }, 
+  {
+    icon: LanguageIcon,
+    title: "English",
+    date: "Fluent",
+    children:
+      "C1",
+  }, 
+  {
+    icon: LanguageIcon,
+    title: "Arabic",
+    date: "Fluent",
+    children:
+      "C1",
+  },
+  {
+    icon: LanguageIcon,
+    title: "Dutch",
+    date: "Intermediate",
+    children:
+      "B2",
+  },
+
+];
+
+
 export function InformationSection() {
   return (
-    <section className="pb-28 px-8">
-      <div className="grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start">
-        <div>
-          <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
+    <section  className="pb-28 px-8">
+      <div   className="grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start">
+        <div >
+          <div id="edu"  className="mb-10">
+            <Typography  color="blue-gray" className="mb-2 text-3xl font-bold" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               Education & Certifications
             </Typography>
-            <Typography variant="lead" className="!text-gray-500">
+            <Typography variant="lead" className="!text-gray-500" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               See my education history.
             </Typography>
           </div>
-          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
+          <div  className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
             {EDUCATION.map((props, idx) => (
               <InfoCard key={idx} {...props} />
             ))}
@@ -159,15 +216,31 @@ export function InformationSection() {
         </div>
         <div>
           <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
+            <Typography color="blue-gray" className="mb-2 text-3xl font-bold" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               Experiences
             </Typography>
-            <Typography variant="lead" className="!text-gray-500">
+            <Typography variant="lead" className="!text-gray-500" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               See my previous working experience.
             </Typography>
           </div>
-          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
+          <div  className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
             {EXPERIENCE.map((props, idx) => (
+              <InfoCard key={idx} {...props} />
+            ))}
+          </div>
+        </div>
+        <div className="container gap-20 mt-36 mx-auto items-center">
+        <div>
+          <div id="sk" className="mb-10">
+            <Typography  color="blue-gray" className="mb-2 text-3xl font-bold" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+              Skills
+            </Typography>
+            <Typography variant="lead" className="!text-gray-500" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+              Check out my technical and soft skills.
+            </Typography>
+          </div>
+          <div   className="container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2">
+            {SKILLS.map((props, idx) => (
               <InfoCard key={idx} {...props} />
             ))}
           </div>
@@ -175,21 +248,23 @@ export function InformationSection() {
       </div>
       <div className="container gap-20 mt-36 mx-auto items-center">
         <div>
-          <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
-              Skills
+          <div id="sk" className="mb-10">
+            <Typography  color="blue-gray" className="mb-2 text-3xl font-bold" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+              Languages
             </Typography>
-            <Typography variant="lead" className="!text-gray-500">
-              Check out my technical and soft skills.
+            <Typography variant="lead" className="!text-gray-500" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+              Check out my languages.
             </Typography>
           </div>
-          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2">
-            {SKILLS.map((props, idx) => (
+          <div   className="container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2">
+            {Languages.map((props, idx) => (
               <InfoCard key={idx} {...props} />
             ))}
           </div>
         </div>
       </div>
+      </div>
+      
     </section>
   );
 }
