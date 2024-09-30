@@ -127,7 +127,7 @@ export function Navbar() {
                 onPointerLeaveCapture={() => {}}
                 placeholder=""
               >
-                Connect
+                Connect to LinkedIn
               </Button>
             </a>
           </div>
