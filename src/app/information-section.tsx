@@ -12,6 +12,13 @@ import InfoCard from "@/components/info-card";
 const EDUCATION = [
   {
     icon: AcademicCapIcon,
+    title: "Business Processes in SAP S/4HANA Sourcing and Procurement",
+    date: "2024-2025",
+    children:
+      "Relevant Coursework: ABAP, Process and Enterprise Structure in Procurement, Advanced Transactions in Procurement, Automated Procurement Process, Reporting and Analytics",
+  },
+  {
+    icon: AcademicCapIcon,
     title: "Blockchain for Business Online Degree - Blockchain Council",
     date: "2024-2025",
     children:
@@ -100,6 +107,13 @@ const EXPERIENCE = [
 ];
 
 const SKILLS = [
+  {
+    icon: FireIcon,
+    title: "SAP S/4HANA",
+    date: "Technical Skills",
+    children:
+      "Competent in working with SAP S/4HANA ",
+  },
   {
     icon: FireIcon,
     title: "Next.Js Frameworks",
