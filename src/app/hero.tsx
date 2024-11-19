@@ -28,7 +28,7 @@ function Hero() {
           {/* Social Media Buttons */}
           <div className="gap-4 lg:flex">
         
-            <a href="https://www.instagram.com/mugen_naj?igsh=MW5sODFpM3BjNGM2aQ==" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Lnaj" target="_blank" rel="noreferrer">
               <button className="text-white p-2">
                 <i className="fa-brands fa-instagram text-lg" />
               </button>
