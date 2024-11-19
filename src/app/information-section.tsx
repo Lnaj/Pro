@@ -12,7 +12,7 @@ import InfoCard from "@/components/info-card";
 const EDUCATION = [
   {
     icon: AcademicCapIcon,
-    title: "Business Processes in SAP S/4HANA Sourcing and Procurement",
+    title: "Business Processes in SAP S/4HANA Sourcing and Procurement - VDAB Campus ",
     date: "2024-2025",
     children:
       "Relevant Coursework: ABAP, Process and Enterprise Structure in Procurement, Advanced Transactions in Procurement, Automated Procurement Process, Reporting and Analytics",
