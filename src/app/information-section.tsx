@@ -57,7 +57,7 @@ const EDUCATION = [
 const EXPERIENCE = [
   {
     icon: BriefcaseIcon,
-    title: "AI Analyst - Freelance",
+    title: "AI Analyst - Outlier",
     date: "2024-ongoing",
     children:
       "Leveraging a technical training in AI requirements and ethics, I help train AI models on specific topics and regions.",
