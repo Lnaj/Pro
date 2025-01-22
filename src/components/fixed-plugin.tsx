@@ -5,10 +5,9 @@ import { Button } from "@material-tailwind/react";
 export function FixedPlugin() {
   return (
     <a
-      href="google.com"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    href="/cv.pdf" // Path to the CV file
+    download // Enables file download
+  >
       <Button
         color="white"
         size="sm"
@@ -21,11 +20,11 @@ export function FixedPlugin() {
           width={256}
           height={256}
           className="w-5 h-5"
-          alt="Material Tailwind"
+          alt="CV download"
           src="https://www.material-tailwind.com/favicon.png"
           unoptimized
         />
-        {"Metaverse"}
+        {"Download CV"}
       </Button>
     </a>
   );

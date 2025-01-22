@@ -5,7 +5,7 @@ import { Navbar, Footer } from "@/components";
 import Hero from "./hero";
 import InformationSection from "./information-section";
 import Testimonial from "./testimonial";
-
+ 
 export default function Portfolio() {
   return (
     <>
@@ -13,6 +13,8 @@ export default function Portfolio() {
       <Navbar />
       <Hero  />
       <Testimonial  />
+      
+       
       <InformationSection  />
       <Footer />
     </>
