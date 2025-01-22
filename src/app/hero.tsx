@@ -10,13 +10,18 @@ function Hero() {
           
       
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-white">
-            Professional Technology Consultant Specialized in AI and Blockchain
+          Aspiring SAP Functional Consultant with a Passion for Business Process Optimization
           </h1>
       
           <p className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl text-white text-lg md:text-xl">
-            Welcome to my professional resume page, I will keep this page updated! Below, you will find a
-            comprehensive overview of my skills, qualifications, and experiences.
-            <br /><br />
+         
+          Welcome to my professional resume page! I will keep this page updated to share my journey, skills, and growing experiences in the world of SAP consulting.
+
+          As a junior consultant, I am eager to learn, contribute, and develop tailored SAP solutions that enhance business efficiency and support growth.
+          
+          <br /><br /> I am passionate about understanding business needs and translating them into effective system configurations.
+
+             <br /><br />
             Feel free to reach out by hitting the connect button!
             Looking forward to interesting conversations and business opportunities.
           </p>

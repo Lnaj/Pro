@@ -26,7 +26,7 @@ export function Testimonial() {
             className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12"
             {...({} as any)}
           >
-            I am passionate about technology and consultancy.
+            Hi, I’m Najib tech enthusiast with a lifelong passion for innovation and exploration. A business school graduate fueled by curiosity, I thrive on learning and diving into new challenges. By day, I’m an SAP Functional Analyst, ensuring businesses run smoothly, and by night, I’m a creator—building personal projects in Web3, trading, and even teaching. Beyond the screen, I’m an avid sports lover who believes in pushing boundaries, both physically and intellectually. Welcome to my world, where tech, growth, and passion collide!
           </Typography>
         </div>
         {/* Type assertion to bypass TypeScript checks */}
@@ -44,21 +44,17 @@ export function Testimonial() {
                 className="mb-4 font-bold lg:max-w-xs"
                 {...({} as any)}
               >
-                Technology Consultant and AI Specialist
+                Technology Consultant and AI Passionate
               </Typography>
               <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500" {...({} as any)}>
-                With a Master&apos;s degree in Economics, extensive experience as an
-                actuary at AXA, and a background as a consultant in IT security, I am
-                actively pursuing opportunities in information technology consultancy.
-                <br /><br />
-                My interest lies in project management positions, where I aim to
-                leverage my blend of economic expertise and technical skills to deliver exceptional results.
-                <br /><br />
-                I thrive in collaborative environments, enjoying teamwork and the opportunity to work closely with people to achieve common goals. 
-                Driven by motivation and adaptability, I eagerly embrace new challenges in the dynamic landscape of technology consultancy.
+              With a Master&apos;s degree in Economics, extensive experience as an actuary at AXA, and a background as a consultant in IT security, I am actively pursuing opportunities in functional SAP consultancy.
+        <br /><br />
+    My interest lies in leveraging my economic expertise and technical skills to analyze, configure, and optimize SAP solutions that drive business efficiency and success.
+<br /><br />
+I thrive in collaborative environments, enjoying teamwork and the opportunity to work closely with clients and stakeholders to achieve their operational goals. Driven by motivation and adaptability, I eagerly embrace new challenges in the ever-evolving world of SAP consulting.
               </Typography>
               <Typography variant="h6" color="blue-gray" className="mb-0.5" {...({} as any)}>
-                Najib - IT Consultant
+                Najib - IT  Consultant
               </Typography>
               <Typography variant="small" className="font-normal mb-5 !text-gray-500" {...({} as any)}>
                 Experienced in AI and consultancy services.
