@@ -88,8 +88,16 @@ const EDUCATION = [
 const EXPERIENCE = [
   {
     icon: BriefcaseIcon,
+    title: "AI Automation Engineer - Freelance",
+    date: "2025-ongoing",
+    children:
+      " Designing and implementing intelligent automation workflows using N8n, Docker containerization, and MCP servers to integrate AI/ML technologies into business processes and optimize operational efficiency.",
+
+  },
+  {
+    icon: BriefcaseIcon,
     title: "AI Analyst - Outlier",
-    date: "2024-ongoing",
+    date: "2024-2025",
     children:
       "Leveraging a technical training in AI requirements and ethics, I help train AI models on specific topics and regions.",
   },
