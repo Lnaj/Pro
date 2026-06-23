@@ -10,7 +10,7 @@ function Hero() {
           
       
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-white">
-            Functional Analyst with Solid Ai coding Skills
+            Functional Analyst with Solid Ai Coding Skills
           </h1>
       
           <p className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl text-white text-lg md:text-xl">
