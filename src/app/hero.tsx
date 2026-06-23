@@ -4,40 +4,32 @@ import { IconButton } from "@material-tailwind/react";
 
 function Hero() {
   return ( 
-    <div id="home" className="relative w-full max-w-screen-lg mx-auto overflow-auto">
+    <div id="home" className="relative w-full max-w-5xl mx-auto overflow-auto">
       <div className="grid place-items-center min-h-[92vh] px-8">
         <div className="container mx-auto grid place-items-center h-max text-center">
           
       
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-white">
-          Aspiring SAP Functional Consultant with a Passion for Business Process Optimization
+            AI Coding Engineer Profile for High-Value Intelligence Work
           </h1>
       
           <p className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl text-white text-lg md:text-xl">
-         
-          Welcome to my professional resume page! I will keep this page updated to share my journey, skills, and growing experiences in the world of SAP consulting.
+            I turn business team needs into useful internal tools, dashboards, and automations with an AI-assisted, delivery-first approach.
 
-          As a junior consultant, I am eager to learn, contribute, and develop tailored SAP solutions that enhance business efficiency and support growth.
-          
-          <br /><br /> I am passionate about understanding business needs and translating them into effective system configurations.
+            <br /><br /> I work close to domain experts, map their workflows, and rapidly prototype solutions that reduce manual effort and improve decision quality.
 
-             <br /><br />
-            Feel free to reach out by hitting the connect button!
-            Looking forward to interesting conversations and business opportunities.
+            <br /><br /> My focus is practical impact: reliable outputs, strong prompt engineering, fast iteration, and clean handover for engineering teams when productionization is needed.
+
+            <br /><br /> I am especially motivated by work linked to compliance, sustainability, and regulatory intelligence where precision, speed, and trust are essential.
           </p>
  
           <div className="mt-12 mb-4 text-white font-medium uppercase">
-            Connect me also on:
+            Connect with me:
           </div>
           
           {/* Social Media Buttons */}
           <div className="gap-4 lg:flex">
-        
-            <a href="https://github.com/Lnaj" target="_blank" rel="noreferrer">
-              <button className="text-white p-2">
-                <i className="fa-brands fa-instagram text-lg" />
-              </button>
-            </a>
+         
             <a href="https://github.com/Lnaj" target="_blank" rel="noreferrer">
               <button className="text-white p-2">
                 <i className="fa-brands fa-github text-lg" />

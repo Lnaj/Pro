@@ -1,4 +1,3 @@
-/* eslint-disable react/no-children-prop */
 "use client";
 import { Typography } from "@material-tailwind/react";
 import {
@@ -19,31 +18,31 @@ const EDUCATION = [
       "Business Processes:",
       <br key="spacer1" />,
       "Procure-to-Pay Flow",
-      <br key="spacer1" />,
+      <br key="spacer2" />,
       "Order-to-Cash Process",
-      <br key="spacer1" />,
+      <br key="spacer3" />,
       "SAP Development Fundamentals:",
-      <br key="spacer1" />,
+      <br key="spacer4" />,
       "Introduction to Development Environment and ABAP",
-      <br key="spacer1" />,
+      <br key="spacer5" />,
       "Data Dictionary, Selection Screen, Includes, Classes, Methods ",
-      <br key="spacer1" />,
+      <br key="spacer6" />,
       "Database Operations ", 
-      <br key="spacer1" />,
+      <br key="spacer7" />,
       "ABAP OO and Advanced ABAP OO ",
-      <br key="spacer1" />,
+      <br key="spacer8" />,
       "Advanced SAP Technologies and Enhancements: ",
-      <br key="spacer1" />,
+      <br key="spacer9" />,
       "OData and Gateway Services ",
-      <br key="spacer1" />,
+      <br key="spacer10" />,
       "ABAP Cloud and Debugging/Enhancement ",
-      <br key="spacer1" />,
-      "CDS ",<br key="spacer1" />,
-      "RAP ",<br key="spacer1" />,
-      "Fiori Elements ",<br key="spacer1" />,
-      "BTP/CPI" ,<br key="spacer1" />,
+      <br key="spacer11" />,
+      "CDS ",<br key="spacer12" />,
+      "RAP ",<br key="spacer13" />,
+      "Fiori Elements ",<br key="spacer14" />,
+      "BTP/CPI" ,<br key="spacer15" />,
       "Sap Modules: ",
-      <br key="spacer1" />,
+      <br key="spacer16" />,
       "Sap Material Management (MM), ",
       "Sap Sales and Distribution (SD) ",
 
@@ -253,10 +252,10 @@ export function InformationSection() {
             </Typography>
             <Typography
               variant="lead"
-              className="!text-gray-500"
+              className="text-gray-500!"
               {...({} as any)} // Bypass TypeScript missing props error
             >
-              See my education history.
+              Academic and certification path supporting AI-assisted delivery and functional problem solving.
             </Typography>
           </div>
           <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
@@ -276,10 +275,10 @@ export function InformationSection() {
             </Typography>
             <Typography
               variant="lead"
-              className="!text-gray-500"
+              className="text-gray-500!"
               {...({} as any)} // Bypass TypeScript missing props error
             >
-              See my previous working experience.
+              Experience building practical solutions across consulting, analytics, and operations-focused environments.
             </Typography>
           </div>
           <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
@@ -300,10 +299,10 @@ export function InformationSection() {
               </Typography>
               <Typography
                 variant="lead"
-                className="!text-gray-500"
+                className="text-gray-500!"
                 {...({} as any)} // Bypass TypeScript missing props error
               >
-                Check out my technical and soft skills.
+                Capabilities aligned with rapid prototyping, automation, and business-facing AI implementation.
               </Typography>
             </div>
             <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2">
@@ -325,10 +324,10 @@ export function InformationSection() {
               </Typography>
               <Typography
                 variant="lead"
-                className="!text-gray-500"
+                className="text-gray-500!"
                 {...({} as any)} // Bypass TypeScript missing props error
               >
-                Check out my languages.
+                Languages that support cross-functional collaboration in international teams.
               </Typography>
             </div>
             <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2">

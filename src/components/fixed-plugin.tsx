@@ -12,9 +12,7 @@ export function FixedPlugin() {
         color="white"
         size="sm"
         className="!fixed bottom-4 right-4 flex gap-1 pl-2 items-center border border-blue-gray-50"
-        placeholder="" // Optional prop
-        onPointerEnterCapture={() => {}} // Optional prop
-        onPointerLeaveCapture={() => {}} // Optional prop
+        {...({} as any)}
       >
         <Image
           width={256}

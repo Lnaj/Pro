@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Najib Resume",
+  title: "Najib | AI Coding Engineer",
   description:
-    "Resume powered by Next.js and deployed with Vercel",
+    "Business-facing AI coding engineer profile focused on rapid prototyping, internal tools, and workflow automation.",
 };
 
 export default function RootLayout({

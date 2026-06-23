@@ -23,7 +23,7 @@ export function InfoCard({ icon: Icon, title, date, children }: InfoCardProps) {
             {title}
           </Typography>
         </div>
-        <IconButton className="flex-shrink-0" {...({} as any)}>
+        <IconButton className="shrink-0" {...({} as any)}>
           <Icon className="h-6 w-6 text-blue-gray-500" />
         </IconButton>
       </CardHeader>

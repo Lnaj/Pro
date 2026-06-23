@@ -1,4 +1,3 @@
-/* eslint-disable react/no-children-prop */
 "use client";
 
 import React from "react";
@@ -19,14 +18,14 @@ export function Testimonial() {
             className="mb-4"
             {...({} as any)}
           >
-            About Me
+            Functional Profile
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12"
             {...({} as any)}
           >
-            Hi, I’m Najib tech enthusiast with a lifelong passion for innovation and exploration. A business school graduate fueled by curiosity, I thrive on learning and diving into new challenges. By day, I’m an SAP Functional Analyst, ensuring businesses run smoothly, and by night, I’m a creator—building personal projects in Web3, trading, and even teaching. Beyond the screen, I’m an avid sports lover who believes in pushing boundaries, both physically and intellectually. Welcome to my world, where tech, growth, and passion collide!
+            I am a business-facing builder who combines domain understanding, AI-assisted coding, and rapid delivery to solve real operational bottlenecks.
           </Typography>
         </div>
         {/* Type assertion to bypass TypeScript checks */}
@@ -44,20 +43,20 @@ export function Testimonial() {
                 className="mb-4 font-bold lg:max-w-xs"
                 {...({} as any)}
               >
-                Technology Consultant and AI Passionate
+                AI Coding Engineer with Functional Consulting Background
               </Typography>
               <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500" {...({} as any)}>
-              With a Master&apos;s degree in Economics, extensive experience as an actuary at AXA, and a background as a consultant in IT security, I am actively pursuing opportunities in functional SAP consultancy.
-        <br /><br />
-    My interest lies in leveraging my economic expertise and technical skills to analyze, configure, and optimize SAP solutions that drive business efficiency and success.
-<br /><br />
-I thrive in collaborative environments, enjoying teamwork and the opportunity to work closely with clients and stakeholders to achieve their operational goals. Driven by motivation and adaptability, I eagerly embrace new challenges in the ever-evolving world of SAP consulting.
+                With a Master&apos;s degree in Economics and experience across analytics, consulting, and systems implementation, I translate complex business needs into simple, usable technical outputs.
+                <br /><br />
+                I use LLMs and AI coding assistants to prototype quickly, automate repetitive tasks, structure unformatted information, and deliver internal tools that teams can use immediately.
+                <br /><br />
+                My way of working is pragmatic and iterative: listen deeply, ship fast, validate quality, respect data privacy constraints, and prepare clean handovers for production teams.
               </Typography>
               <Typography variant="h6" color="blue-gray" className="mb-0.5" {...({} as any)}>
-                Najib - IT  Consultant
+                Najib - AI Coding Engineer
               </Typography>
               <Typography variant="small" className="font-normal mb-5 !text-gray-500" {...({} as any)}>
-                Experienced in AI and consultancy services.
+                Experienced in AI-assisted development, workflow automation, and business-facing delivery.
               </Typography>
               <div className="flex items-center gap-4">
                 <Avatar

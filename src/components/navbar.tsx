@@ -10,7 +10,7 @@ import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
   { label: "Home", href: "#home" },
-  { label: "About me", href: "#test" },
+  { label: "Profile", href: "#test" },
   { label: "Education and Experiences", href: "#edu" },
   { label: "Skills and Languages", href: "#sk" },
 ];
@@ -24,9 +24,7 @@ function NavItem({ href, children }: { href: string; children: React.ReactNode }
         variant="paragraph"
         color="black"
         className="flex items-center gap-2 font-medium text-gray-900"
-        onPointerEnterCapture={() => {}}
-        onPointerLeaveCapture={() => {}}
-        placeholder=""
+        {...({} as any)}
       >
         {children}
       </Typography>
@@ -56,9 +54,7 @@ export function Navbar() {
       shadow={false}
       color="white"
       className="sticky top-0 z-50 border-0"
-      onPointerEnterCapture={() => {}}
-      onPointerLeaveCapture={() => {}}
-      placeholder=""
+      {...({} as any)}
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography
@@ -67,9 +63,7 @@ export function Navbar() {
           target="_blank"
           color="blue-gray"
           className="text-lg font-bold"
-          onPointerEnterCapture={() => {}}
-          onPointerLeaveCapture={() => {}}
-          placeholder=""
+          {...({} as any)}
         >
           Welcome!
         </Typography>
@@ -87,9 +81,7 @@ export function Navbar() {
           <a href="https://www.linkedin.com/in/naj-dbi/" target="_blank">
             <Button
               color="gray"
-              onPointerEnterCapture={() => {}}
-              onPointerLeaveCapture={() => {}}
-              placeholder=""
+              {...({} as any)}
             >
               Connect to LinkedIn
             </Button>
@@ -102,9 +94,7 @@ export function Navbar() {
           onClick={handleOpen}
           className="ml-auto inline-block lg:hidden"
           aria-label={open ? "Close navigation menu" : "Open navigation menu"}
-          onPointerEnterCapture={() => {}}
-          onPointerLeaveCapture={() => {}}
-          placeholder=""
+          {...({} as any)}
         >
           {open ? <XMarkIcon strokeWidth={2} className="h-6 w-6" /> : <Bars3Icon strokeWidth={2} className="h-6 w-6" />}
         </IconButton>
@@ -123,9 +113,7 @@ export function Navbar() {
             <a href="https://www.linkedin.com/in/naj-dbi/" target="_blank">
               <Button
                 color="gray"
-                onPointerEnterCapture={() => {}}
-                onPointerLeaveCapture={() => {}}
-                placeholder=""
+                {...({} as any)}
               >
                 Connect to LinkedIn
               </Button>
